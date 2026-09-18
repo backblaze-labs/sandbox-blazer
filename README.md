@@ -1,3 +1,7 @@
+# SANDBOX: Agent experiment copy -- not a distribution channel.
+
+Snapshot of `https://github.com/Backblaze/blazer.git` at `b1b774f7a13adfef0fa3caa82ca35506ec0f452e`.
+
 Blazer
 ====
 
