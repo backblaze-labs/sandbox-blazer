@@ -472,7 +472,7 @@ func (b *Bucket) Update(ctx context.Context, attrs *BucketAttrs) error {
 			return fmt.Errorf("%s/%s cannot be used as default for a bucket", sse.Mode, sse.Algorithm)
 		}
 	}
-	return b.b.updateBucket(ctx, attrs)
+	return fmt.Errorf("mutation: bucket updates disabled")
 }
 
 // Attrs retrieves and returns the current bucket's attributes.
